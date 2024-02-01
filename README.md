@@ -11,8 +11,8 @@ Use the provided resources for a better understanding.
 
 | Concept                                 | Resources                                                                                                          |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| Understand the Graph                    | [Graph Introduction](https://www.youtube.com/watch?v=R74DnYySxv0&list=PLCInYL3l2AajqOUW_2SwjWeMwf4vL4RSp&index=34) |
-| Understand how to implement graph       | [Graph Adjacency Matrix Implementation](https://www.youtube.com/watch?v=xX5iOYCJmBI&list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8)       |
+| Understand the Graph                    | [Graph Introduction]([https://www.youtube.com/watch?v=-VgHk7UMPP4](https://www.youtube.com/watch?v=R74DnYySxv0)) |
+| Understand how to implement graph       | [Graph Adjacency Matrix Implementation](https://www.youtube.com/watch?v=B28xAWEerK8)       |
 
 ### Problem
 You have a metro system with a number of stations. Each station is connected to some other stations. 
