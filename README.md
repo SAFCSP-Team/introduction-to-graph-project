@@ -11,7 +11,7 @@ Use the provided resources for a better understanding.
 
 | Concept                                 | Resources                                                                                                          |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| Understand the Graph                    | [Graph Introduction]([https://www.youtube.com/watch?v=-VgHk7UMPP4](https://www.youtube.com/watch?v=R74DnYySxv0)) |
+| Understand the Graph                    | [Graph Introduction](https://www.youtube.com/watch?v=R74DnYySxv0) |
 | Understand how to implement graph       | [Graph Adjacency Matrix Implementation](https://www.youtube.com/watch?v=B28xAWEerK8)       |
 
 ### Problem
