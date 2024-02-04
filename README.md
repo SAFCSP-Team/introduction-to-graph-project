@@ -1,4 +1,4 @@
-# Graph
+# Graph Project
 
 ### Objective
 
