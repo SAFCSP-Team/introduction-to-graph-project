@@ -2,7 +2,7 @@
 
 ### Objective
 
-In this project, we will be covered the fundamentals of a `graph`, and how to implement it using `adjacency matrix`.
+In this project, we will cover the fundamentals of a `graph`, and how to implement it using an `adjacency matrix`.
 
 ### Concepts
 
@@ -26,7 +26,7 @@ Present the graph using adjacency matrix.
 
 ### Implementation
 
-Write the implemenation of the **graph adjacency matrix**.
+Write the implementation of the **graph adjacency matrix**.
 
 1. Create a class called **Node** to store the station name. 
 2. In Node class, create a constructor to initialize the station name.
@@ -44,5 +44,5 @@ public class Main {
 }
 ````
 
-> * Once you complete this project, Create an issue with title "Completed [your-username]".
+> * Once you complete this project, Create an issue with the title "Completed [your-username]".
 > * Create an issue of your questions, If you face any trouble solving the project.
