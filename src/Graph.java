@@ -1,42 +1,37 @@
 import java.util.ArrayList;
 
-public class Graph {
-    // Your code here
-    // Store the vertices in an ArrayList
-
-    // Store the adjacency matrix which stores the edges
-
-    public Graph(int size) {
-        // Your code here
-        
+class Graph{
+    Vertex v;
+    static ArrayList<Vertex>verticList = new ArrayList<>();
+    public int size; 
+    public static int graph[][];
+    public Graph(int size){
+        this.size = size;
+        graph = new int[size][size];
     }
 
-    public void addVertex(Vertex vertex) {
-        // Your code here
+    public static void addEdge(int source, int dest){
+        graph[source][dest] =1;
     }
 
-    public void addEdge(int src, int dst) {
-        // Your code here
+    
+    public static void addVertex(Vertex v){
+        verticList.add(v);
     }
 
-    public void display() {
-        
-        // print the vertices in one line
-        for(int i = 0; i < vertices.size(); i++) {
-            System.out.print("  "+vertices.get(i).data);
+    public void display(){
+        // Matrix
+        for(int a = 0; a < size; a++){
+            System.out.print("  "+verticList.get(a).data);
         }
         System.out.println();
+        for(int x = 0; x < this.size; x++){
+            System.out.print(verticList.get(x).data);
 
-        // columns
-        for(int i = 0; i < vertices.size(); i++) {
-            System.out.print(vertices.get(i).data + " ");
-
-            // rows
-            for(int j = 0; j < vertices.size(); j++) {
-                System.out.print(adjMatrix[i][j] + "  ");
+            for(int y = 0; y < this.size; y++){
+                System.out.print(" " + graph[x][y]);
             }
             System.out.println();
-        }
 
-    }
-}
+        }
+    }}
