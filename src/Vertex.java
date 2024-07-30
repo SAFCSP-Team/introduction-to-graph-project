@@ -1,8 +1,7 @@
 public class Vertex {
-    // Your Code Here
-    
-    public Vertex(char data){
-        // Your Code Here
-        
+    char data;
+
+    public Vertex(char data) {
+        this.data = data;
     }
 }
